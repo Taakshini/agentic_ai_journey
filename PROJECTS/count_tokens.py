@@ -2,6 +2,9 @@ import tiktoken
 processing = tiktoken.get_encoding("cl100k_base")
 text = "Hello, I am Sarah.And i love agentic AI"
 
+
+
+
 e_tokens = processing.encode(text)
 print(e_tokens)
 print("Number of tokens:", len(e_tokens))
